@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="formatacoes.css">
+        <title>Página do Felipe e Fernando</title>
+    </head>
+
+    <body>
+        <nav> 
+            <label class="logo">Unitins</label>
+            <ul>
+                <li><a href="index.html">VOLTAR</a></li>
+                <li><a href="paginaDoArtista.html">PÁGINA</a>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li><a href="quemsou.html">SOBRE NÓS</a></li>
+            </ul>
+        </nav>
+
+        <div class="formulario">
+            <h1>Formulário de contato</h1>
+            <div class="formCompleto">
+                <form action="" method="get">
+                <fieldset>
+                    <div>
+                        <h4>Informações Pessoais</h4>
+                        <br>
+                        <label for="nome">Nome completo:</label>
+                        <input id="nome" type="text" placeholder="Digite seu nome" name="nome" />
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input id="email" type="text" placeholder="exemplo123@email.com" name="email" />
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone:</label>
+                        <input id="telefone" type="number" placeholder="número de contato" name="telefone" />
+                    </div>
+                    <div>
+                        <label for="idade">Idade:</label>
+                        <input id="idade" type="number" placeholder="anos" name="idade" />
+                    </div>
+                    
+                    <div>
+                        <label for="opcao"> Sexo: </label>
+                        <input type="radio" name="opcao" value="Masculino"/>Masculino
+                        <input type="radio" name="opcao" value="Feminino"/>Feminino
+                        <input type="radio" name="opcao" value="Outros"/>Outros
+                    </div>
+
+                </fieldset>
+                <br>
+                <fieldset>
+                    <h4>Endereço</h4>
+                    <br>
+                    <div>
+                        <label for="estado">Estado</label>
+                        <select>
+                            <option value="mat-000" selected>    </option>
+                            <option value="mat-001">São Paulo</option>
+                            <option value="mat-002">Rio de Janeiro</option>
+                            <option value="mat-003">Tocantins</option>
+                        </select>
+
+                        <label for="cidade">Cidade: </label>
+                        <input id="cidade" type="text" placeholder="Digite sua cidade" name="cidade"/>
+
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div>
+                        <h4>Comentário</h4>
+                        <br>
+                        <label for="motivo">Motivo do Contato</label>
+                        <select>
+                            <option>Dúvida</option>
+                            <option>Elogio</option>
+                            <option>Outros</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="areaDeTexto">
+                            <textarea placeholder="Deixe sua mensagem"></textarea>
+                        </label>
+                
+                    </div>
+                </fieldset>
+                
+                <input type="reset" value="LIMPAR"/>
+                <input type="reset" value="ENVIAR"/>
+                
+            </div>
+            </form>
+        </div>
+        
+           
+    
+        
+        
+        <footer>Desenvolvido por Felipe Ferreira e Fernando na disciplina d<a href="https://www.unitins.br/nPortal/sistemas-de-informacao-palmas">e Desenvolvimento Front-End</a> - 01 de junho 2022</footer>
+    </body>
+
+</html>

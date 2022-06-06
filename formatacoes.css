@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(180, 180, 180);
+}
+
+nav {
+    background: rgb(33, 33, 33);
+    height: 80px;
+    width: 100%; 
+}
+
+label.logo {
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: bold;
+    padding: 80px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+}
+
+a:active, a:hover {
+    color:black;
+    transition: .5s;
+}
+
+ul ul {
+    position: absolute;
+    min-width: 200px;
+    display: none;
+    background: rgb(33, 33, 33);
+}
+
+ul ul li {
+    display: block;
+    background: rgb(33, 33, 33);
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+.apresentacao{
+    text-align: center;
+    margin-top: 20px;
+}
+
+a{
+    color: inherit;
+}
+
+.quemsomos{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.conteudoFF{
+    display: table;
+    margin-left: 100px;
+}
+
+.fotoFelipe{
+    background-image: url(Felipe.jpg.jpg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    margin: right 450px ;
+    border-radius: 50%;
+    display: table-cell;
+    float: left;
+}
+
+.textoFF{
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: 40px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.conteudoFP{
+    display: table;
+    margin-top: 110px;
+    margin-left: 200px;
+}
+
+.fotoFernando{
+    background-image: url(Fernando.jpeg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    margin: right;
+    margin-left: 40px;
+    border-radius: 50%;
+    display: table-cell;
+    float: right;
+}
+
+.textoFP{
+    display: table-cell;
+    float: right;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.formulario{
+    margin-top: 20px;
+}
+
+.formCompleto{
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.informacao{
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify;
+}
+
+.tudo{
+    box-sizing: border-box;
+}
+
+.paginaArtista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.carrosel{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 500px;
+    width: 800px;
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img{
+    object-fit: cover;
+    height: 500px;
+    width: 800px;
+}
+
+.instagram{
+    background-image: url(instagram.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.tituloArtista{
+    margin-top: 20px;
+}
+
+.subtitulo{
+    margin-left: 36%;
+    margin-top: 10px;
+}
+
+.biografia{
+    display: table;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.foto1{
+    background-image: url(matue2.png);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    margin: left 500px ;
+    border-radius: 50%;
+    display: table-cell;
+    margin-top: 10px;
+    float: left;
+}
+
+.contBio{
+    display: table-cell;
+    float: left;
+    width: 700px;
+    text-align: justify;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.tituloCarreira{
+    margin-top: 350px;
+    margin-left: 10px;
+}
+
+.contCar{
+    margin-top: 80px;
+    display: table-cell;
+    float: right;
+    width: 700px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.foto2{
+    background-image: url(matue3.png);
+    background-size: 110%;
+    width: 300px;
+    height: 300px;
+    margin: right 500px;
+    border-radius: 50%;
+    display: table-cell;
+    margin-top: 10px;
+    float: right;
+}
+
+.tituloAlbum{
+    margin-top: 350px;
+}
+
+.contAlbum{
+    display: table-cell;
+    float: left;
+    width: 700px;
+    text-align: justify;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.foto3{
+    background-image: url(capaalbum.jpeg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    margin: left 500px ;
+    border-radius: 50%;
+    display: table-cell;
+    margin-top: 10px;
+    float: left;
+}
+
+.tituloDiscografia{
+    margin-top: 20px;
+}
+
+.subDisc{
+    margin-top: 10px;
+    margin-left: 39%;
+}
+
+.musicasLinha0{
+    margin-top: 40px;
+    margin-left: 320px;
+}
+
+.musicasLinha1{
+    margin-top: 10px;
+    margin-left: 320px;
+}
+
+.musicasLinha2{
+    margin-top: 10px;
+    margin-left: 320px;
+}
+
+.musicasLinha3{
+    margin-top: 10px;
+    margin-left: 320px;
+}
+
+footer{
+    background: rgb(33, 33, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+textarea{
+    min-width: 500px;
+    max-width: 530px;
+    min-height: 50px;
+    max-height: 80px;
+}
